@@ -57,7 +57,7 @@ input[type="search"].search-input::-webkit-search-cancel-button {
 }
 .search-input {
   padding: 0;
-  margin: 0;
+  margin: 5px 0 0 0;
   font: inherit;
   color: inherit;
   background: transparent;
@@ -100,6 +100,8 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   width: 100%;
 }
 .search-input:focus {
+  padding: 4px 0 0 10px;
+
   background: transparent;
   color: white;
   border: 1px solid #ddd;
@@ -150,3 +152,4 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   font-size: 10px;
   margin: 5px;
 }
+
