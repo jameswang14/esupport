@@ -1,7 +1,7 @@
-.page--menu-page__background {
+/*.page--menu-page__background {
   background-color: #333;
   color: white;
-}
+}*/
 
 .menu-close,
 .menu-close > .toolbar-button {
@@ -125,7 +125,7 @@ input[type="search"].search-input::-webkit-search-cancel-button {
 }
 .list-item-container {
   line-height: 1;
-  margin-top:20px;
+  margin-top:40px;
   padding: 25px 0px 25px 25px;
 }
 
@@ -155,3 +155,10 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   margin: 5px;
 }
 
+.topBar {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 20px;
+}
