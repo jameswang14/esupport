@@ -10,6 +10,21 @@
     };
   });
 
+  module.controller('GetMatchController', function($scope, $http) {
+      $scope.data = {};
+
+      $scope.data.click= function (item, event) {
+
+    $http.get(
+      url: "https://www.kimonolabs.com/api/4ag7ique?apikey=BsZyX8bXMCMKLt0LIyhOVkKv91tYUfLQ"
+    ).success(function(data)){
+      $scope.myData = data;
+    }).error(function(){
+
+    });
+
+    });
+
   module.controller('DetailController', function($scope, $data) {
     $scope.item = $data.selectedItem;
   });
@@ -24,7 +39,8 @@
     };
   });
 
-  module.factory('$data', function() {
+
+
       var data = {};
       
       data.items = [
