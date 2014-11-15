@@ -11,6 +11,7 @@
 .menu-list,
 .menu-item:first-child,
 .menu-item {
+  margin-top:10px;
   background-color: transparent;
   background-image: none !important;
   border-color: transparent;
@@ -19,8 +20,8 @@
 
 .menu-item {
   padding: 0 0 0 20px;
-  line-height: 52px;
-  height: 52px;
+  line-height: 46px;
+  height: 46px;
   text-shadow: rgba(0, 0, 0, 0.4) 0px 1px 0px;
 }
 
@@ -124,7 +125,8 @@ input[type="search"].search-input::-webkit-search-cancel-button {
 }
 .list-item-container {
   line-height: 1;
-  padding: 15px 0px 15px 15px;
+  margin-top:20px;
+  padding: 25px 0px 25px 25px;
 }
 
 .thumbnail {
