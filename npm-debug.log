@@ -1,0 +1,554 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'cordova',
+1 verbose cli   'ionic' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose cache add [ 'cordova', null ]
+5 verbose cache add name=undefined spec="cordova" args=["cordova",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'cordova',
+6 verbose parsed url   path: 'cordova',
+6 verbose parsed url   href: 'cordova' }
+7 verbose cache add [ 'ionic', null ]
+8 verbose cache add name=undefined spec="ionic" args=["ionic",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'ionic',
+9 verbose parsed url   path: 'ionic',
+9 verbose parsed url   href: 'ionic' }
+10 silly lockFile a98f2055-cordova cordova
+11 verbose lock cordova /Users/ross/.npm/a98f2055-cordova.lock
+12 silly lockFile 00d10074-ionic ionic
+13 verbose lock ionic /Users/ross/.npm/00d10074-ionic.lock
+14 silly lockFile a98f2055-cordova cordova
+15 silly lockFile a98f2055-cordova cordova
+16 silly lockFile 00d10074-ionic ionic
+17 silly lockFile 00d10074-ionic ionic
+18 verbose addNamed [ 'cordova', '' ]
+19 verbose addNamed [ null, '*' ]
+20 silly lockFile de8d9fad-cordova cordova@
+21 verbose lock cordova@ /Users/ross/.npm/de8d9fad-cordova.lock
+22 verbose addNamed [ 'ionic', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile 966fc04a-ionic ionic@
+25 verbose lock ionic@ /Users/ross/.npm/966fc04a-ionic.lock
+26 silly addNameRange { name: 'cordova', range: '*', hasData: false }
+27 silly addNameRange { name: 'ionic', range: '*', hasData: false }
+28 verbose request where is /ionic
+29 verbose request registry https://registry.npmjs.org/
+30 verbose request id a6171a845a458d12
+31 verbose url raw /ionic
+32 verbose url resolving [ 'https://registry.npmjs.org/', './ionic' ]
+33 verbose url resolved https://registry.npmjs.org/ionic
+34 verbose request where is https://registry.npmjs.org/ionic
+35 info trying registry request attempt 1 at 08:37:36
+36 http GET https://registry.npmjs.org/ionic
+37 verbose request where is /cordova
+38 verbose request registry https://registry.npmjs.org/
+39 verbose url raw /cordova
+40 verbose url resolving [ 'https://registry.npmjs.org/', './cordova' ]
+41 verbose url resolved https://registry.npmjs.org/cordova
+42 verbose request where is https://registry.npmjs.org/cordova
+43 info trying registry request attempt 1 at 08:37:36
+44 verbose etag "3PCGJTGKFNLIRISQ3K5RM0BPB"
+45 http GET https://registry.npmjs.org/cordova
+46 http 304 https://registry.npmjs.org/cordova
+47 silly registry.get cb [ 304,
+47 silly registry.get   { date: 'Sat, 15 Nov 2014 13:37:37 GMT',
+47 silly registry.get     server: 'Apache',
+47 silly registry.get     via: '1.1 varnish',
+47 silly registry.get     'last-modified': 'Sat, 15 Nov 2014 13:37:37 GMT',
+47 silly registry.get     'cache-control': 'max-age=60',
+47 silly registry.get     etag: '"3PCGJTGKFNLIRISQ3K5RM0BPB"',
+47 silly registry.get     age: '0',
+47 silly registry.get     'x-served-by': 'cache-atl6229-ATL',
+47 silly registry.get     'x-cache': 'MISS',
+47 silly registry.get     'x-cache-hits': '0',
+47 silly registry.get     'x-timer': 'S1416058657.705451,VS0,VE28',
+47 silly registry.get     vary: 'Accept',
+47 silly registry.get     'content-length': '0',
+47 silly registry.get     'keep-alive': 'timeout=10, max=50',
+47 silly registry.get     connection: 'Keep-Alive' } ]
+48 verbose etag https://registry.npmjs.org/cordova from cache
+49 silly addNameRange number 2 { name: 'cordova', range: '*', hasData: true }
+50 silly addNameRange versions [ 'cordova',
+50 silly addNameRange   [ '0.0.1',
+50 silly addNameRange     '0.0.2',
+50 silly addNameRange     '0.0.3',
+50 silly addNameRange     '0.0.4',
+50 silly addNameRange     '0.0.5',
+50 silly addNameRange     '0.0.6',
+50 silly addNameRange     '0.0.7',
+50 silly addNameRange     '0.0.8',
+50 silly addNameRange     '0.0.9',
+50 silly addNameRange     '0.1.0',
+50 silly addNameRange     '0.1.1',
+50 silly addNameRange     '0.1.2',
+50 silly addNameRange     '0.1.3',
+50 silly addNameRange     '0.1.4',
+50 silly addNameRange     '0.1.5',
+50 silly addNameRange     '0.1.6',
+50 silly addNameRange     '0.1.7',
+50 silly addNameRange     '0.1.8',
+50 silly addNameRange     '0.1.9',
+50 silly addNameRange     '0.1.10',
+50 silly addNameRange     '0.1.11',
+50 silly addNameRange     '0.1.12',
+50 silly addNameRange     '0.1.13',
+50 silly addNameRange     '0.1.14',
+50 silly addNameRange     '2.2.0',
+50 silly addNameRange     '2.3.0',
+50 silly addNameRange     '2.3.1',
+50 silly addNameRange     '2.3.2',
+50 silly addNameRange     '2.3.3',
+50 silly addNameRange     '2.3.5',
+50 silly addNameRange     '2.3.6',
+50 silly addNameRange     '2.4.0',
+50 silly addNameRange     '2.4.1',
+50 silly addNameRange     '2.4.2',
+50 silly addNameRange     '2.4.3',
+50 silly addNameRange     '2.4.4',
+50 silly addNameRange     '2.4.5',
+50 silly addNameRange     '2.4.6',
+50 silly addNameRange     '2.4.7',
+50 silly addNameRange     '2.4.8',
+50 silly addNameRange     '2.4.9',
+50 silly addNameRange     '2.4.10',
+50 silly addNameRange     '2.5.0',
+50 silly addNameRange     '2.5.2',
+50 silly addNameRange     '2.5.3',
+50 silly addNameRange     '2.5.4',
+50 silly addNameRange     '2.5.5',
+50 silly addNameRange     '2.6.0',
+50 silly addNameRange     '2.6.1',
+50 silly addNameRange     '2.6.2',
+50 silly addNameRange     '2.7.0-rc.1',
+50 silly addNameRange     '2.7.1-rc.1',
+50 silly addNameRange     '2.7.2',
+50 silly addNameRange     '2.7.3',
+50 silly addNameRange     '2.7.4',
+50 silly addNameRange     '2.8.0',
+50 silly addNameRange     '2.8.1',
+50 silly addNameRange     '2.8.2',
+50 silly addNameRange     '2.8.3',
+50 silly addNameRange     '2.8.4',
+50 silly addNameRange     '2.8.5',
+50 silly addNameRange     '2.8.6',
+50 silly addNameRange     '2.8.7',
+50 silly addNameRange     '2.8.8',
+50 silly addNameRange     '2.8.9',
+50 silly addNameRange     '2.8.10',
+50 silly addNameRange     '2.8.11',
+50 silly addNameRange     '2.8.12',
+50 silly addNameRange     '2.8.13',
+50 silly addNameRange     '2.8.14',
+50 silly addNameRange     '2.8.15',
+50 silly addNameRange     '2.8.16',
+50 silly addNameRange     '2.8.17',
+50 silly addNameRange     '2.8.18',
+50 silly addNameRange     '2.8.19',
+50 silly addNameRange     '2.8.20',
+50 silly addNameRange     '2.8.21',
+50 silly addNameRange     '2.8.22',
+50 silly addNameRange     '2.8.23',
+50 silly addNameRange     '2.8.24',
+50 silly addNameRange     '2.8.25',
+50 silly addNameRange     '2.9.0',
+50 silly addNameRange     '2.9.1',
+50 silly addNameRange     '2.9.2',
+50 silly addNameRange     '2.9.3',
+50 silly addNameRange     '2.9.4',
+50 silly addNameRange     '2.9.5',
+50 silly addNameRange     '2.9.6',
+50 silly addNameRange     '2.9.7',
+50 silly addNameRange     '3.0.0-rc1',
+50 silly addNameRange     '3.0.0-rc1-1',
+50 silly addNameRange     '3.0.0-rc1-3',
+50 silly addNameRange     '3.0.0',
+50 silly addNameRange     '3.0.1',
+50 silly addNameRange     '3.0.2',
+50 silly addNameRange     '3.0.3',
+50 silly addNameRange     '3.0.4',
+50 silly addNameRange     '3.0.5',
+50 silly addNameRange     '3.0.6',
+50 silly addNameRange     '3.0.7',
+50 silly addNameRange     '3.0.8',
+50 silly addNameRange     '3.0.9',
+50 silly addNameRange     '3.0.10',
+50 silly addNameRange     '3.1.0-0.1.0',
+50 silly addNameRange     '3.1.0-0.2.0',
+50 silly addNameRange     '3.2.0-rc.1',
+50 silly addNameRange     '3.2.0-0.1.0',
+50 silly addNameRange     '3.2.0-0.2.0',
+50 silly addNameRange     '3.2.0-0.3.0',
+50 silly addNameRange     '3.2.0-0.4.0',
+50 silly addNameRange     '3.3.0-rc.1',
+50 silly addNameRange     '3.3.0-0.1.1',
+50 silly addNameRange     '3.3.1-0.1.2',
+50 silly addNameRange     '2.9.0-rc1',
+50 silly addNameRange     '3.3.1-0.3.0',
+50 silly addNameRange     '3.3.1-0.3.1',
+50 silly addNameRange     '3.3.1-0.4.1',
+50 silly addNameRange     '3.3.1-0.4.2',
+50 silly addNameRange     '3.4.0-0.1.0',
+50 silly addNameRange     '3.4.0-0.1.1',
+50 silly addNameRange     '3.4.0-0.1.2',
+50 silly addNameRange     '3.4.0-0.1.3',
+50 silly addNameRange     '0.0.0-fake',
+50 silly addNameRange     '3.4.1-0.1.0',
+50 silly addNameRange     '3.5.0-0.2.0',
+50 silly addNameRange     '3.5.0-0.2.1',
+50 silly addNameRange     '3.5.0-0.2.2',
+50 silly addNameRange     '3.5.0-0.2.3',
+50 silly addNameRange     '3.5.0-0.2.4',
+50 silly addNameRange     '3.5.0-0.2.6',
+50 silly addNameRange     '3.5.0-0.2.7',
+50 silly addNameRange     '3.6.0-0.2.8',
+50 silly addNameRange     '3.6.0-0.2.9',
+50 silly addNameRange     '3.6.1-0.2.10',
+50 silly addNameRange     '3.6.3-0.2.11',
+50 silly addNameRange     '3.6.3-0.2.12',
+50 silly addNameRange     '3.6.3-0.2.13',
+50 silly addNameRange     '4.0.0',
+50 silly addNameRange     '4.0.1-nightly.2014.9.29',
+50 silly addNameRange     '4.0.1',
+50 silly addNameRange     '4.1.0',
+50 silly addNameRange     '4.1.1',
+50 silly addNameRange     '4.1.2' ] ]
+51 verbose addNamed [ 'cordova', '4.1.2' ]
+52 verbose addNamed [ '4.1.2', '4.1.2' ]
+53 silly lockFile d72081f6-cordova-4-1-2 cordova@4.1.2
+54 verbose lock cordova@4.1.2 /Users/ross/.npm/d72081f6-cordova-4-1-2.lock
+55 silly lockFile d72081f6-cordova-4-1-2 cordova@4.1.2
+56 silly lockFile d72081f6-cordova-4-1-2 cordova@4.1.2
+57 silly lockFile de8d9fad-cordova cordova@
+58 silly lockFile de8d9fad-cordova cordova@
+59 http 200 https://registry.npmjs.org/ionic
+60 silly registry.get cb [ 200,
+60 silly registry.get   { date: 'Sat, 15 Nov 2014 13:37:37 GMT',
+60 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+60 silly registry.get     etag: '"CNILM4BLATKA2VIXD880Z2OJV"',
+60 silly registry.get     'content-type': 'application/json',
+60 silly registry.get     'cache-control': 'max-age=60',
+60 silly registry.get     'content-length': '148285',
+60 silly registry.get     'accept-ranges': 'bytes',
+60 silly registry.get     via: '1.1 varnish',
+60 silly registry.get     age: '0',
+60 silly registry.get     'x-served-by': 'cache-atl6222-ATL',
+60 silly registry.get     'x-cache': 'MISS',
+60 silly registry.get     'x-cache-hits': '0',
+60 silly registry.get     'x-timer': 'S1416058657.703514,VS0,VE119',
+60 silly registry.get     vary: 'Accept',
+60 silly registry.get     'keep-alive': 'timeout=10, max=50',
+60 silly registry.get     connection: 'Keep-Alive' } ]
+61 silly addNameRange number 2 { name: 'ionic', range: '*', hasData: true }
+62 silly addNameRange versions [ 'ionic',
+62 silly addNameRange   [ '0.9.6',
+62 silly addNameRange     '0.9.8',
+62 silly addNameRange     '0.9.9',
+62 silly addNameRange     '0.9.10',
+62 silly addNameRange     '0.9.11',
+62 silly addNameRange     '0.9.12',
+62 silly addNameRange     '0.9.13',
+62 silly addNameRange     '0.9.14',
+62 silly addNameRange     '0.9.15',
+62 silly addNameRange     '0.9.16',
+62 silly addNameRange     '1.0.0-beta.1',
+62 silly addNameRange     '1.0.0-beta',
+62 silly addNameRange     '1.0.1-beta',
+62 silly addNameRange     '1.0.3-beta',
+62 silly addNameRange     '1.0.4',
+62 silly addNameRange     '1.0.5',
+62 silly addNameRange     '1.0.6',
+62 silly addNameRange     '1.0.7',
+62 silly addNameRange     '1.0.8',
+62 silly addNameRange     '1.0.9',
+62 silly addNameRange     '1.0.10',
+62 silly addNameRange     '1.0.11',
+62 silly addNameRange     '1.0.12',
+62 silly addNameRange     '1.0.13',
+62 silly addNameRange     '1.0.14',
+62 silly addNameRange     '1.0.15',
+62 silly addNameRange     '1.0.16',
+62 silly addNameRange     '1.0.17',
+62 silly addNameRange     '1.1.0-beta1',
+62 silly addNameRange     '1.1.0-beta2',
+62 silly addNameRange     '1.1.0-beta3',
+62 silly addNameRange     '1.1.0-beta4',
+62 silly addNameRange     '1.1.0-beta5',
+62 silly addNameRange     '1.1.0-beta6',
+62 silly addNameRange     '1.1.0',
+62 silly addNameRange     '1.1.1-beta1',
+62 silly addNameRange     '1.1.1-beta2',
+62 silly addNameRange     '1.1.1-beta3',
+62 silly addNameRange     '1.1.1',
+62 silly addNameRange     '1.1.3',
+62 silly addNameRange     '1.1.4',
+62 silly addNameRange     '1.1.5-beta1',
+62 silly addNameRange     '1.1.5-beta2',
+62 silly addNameRange     '1.1.5-beta3',
+62 silly addNameRange     '1.1.5-beta4',
+62 silly addNameRange     '1.1.5-beta5',
+62 silly addNameRange     '1.1.5',
+62 silly addNameRange     '1.1.6',
+62 silly addNameRange     '1.1.7-beta1',
+62 silly addNameRange     '1.1.7',
+62 silly addNameRange     '1.1.8-beta1',
+62 silly addNameRange     '1.1.8-beta2',
+62 silly addNameRange     '1.1.8-beta3',
+62 silly addNameRange     '1.1.8-beta4',
+62 silly addNameRange     '1.1.8-beta5',
+62 silly addNameRange     '1.1.8',
+62 silly addNameRange     '1.1.9-beta1',
+62 silly addNameRange     '1.1.9',
+62 silly addNameRange     '1.1.10',
+62 silly addNameRange     '1.1.11-beta1',
+62 silly addNameRange     '1.1.11-beta2',
+62 silly addNameRange     '1.1.11',
+62 silly addNameRange     '1.1.12-beta1',
+62 silly addNameRange     '1.1.12-beta2',
+62 silly addNameRange     '1.1.12-beta3',
+62 silly addNameRange     '1.1.12',
+62 silly addNameRange     '1.1.13',
+62 silly addNameRange     '1.1.14-beta1',
+62 silly addNameRange     '1.1.14-beta2',
+62 silly addNameRange     '1.1.14-beta3',
+62 silly addNameRange     '1.2.0-beta1',
+62 silly addNameRange     '1.2.0',
+62 silly addNameRange     '1.2.1-beta1',
+62 silly addNameRange     '1.2.1-beta2',
+62 silly addNameRange     '1.2.1-beta3',
+62 silly addNameRange     '1.2.1-beta4',
+62 silly addNameRange     '1.2.1',
+62 silly addNameRange     '1.2.2',
+62 silly addNameRange     '1.2.3-beta1',
+62 silly addNameRange     '1.2.3-beta2',
+62 silly addNameRange     '1.2.3-beta3',
+62 silly addNameRange     '1.2.3',
+62 silly addNameRange     '1.2.4-beta1',
+62 silly addNameRange     '1.2.4-beta2',
+62 silly addNameRange     '1.2.4-beta3',
+62 silly addNameRange     '1.2.4',
+62 silly addNameRange     '1.2.5-beta1',
+62 silly addNameRange     '1.2.5-beta2',
+62 silly addNameRange     '1.2.5-beta3',
+62 silly addNameRange     '1.2.5',
+62 silly addNameRange     '1.2.6-beta1',
+62 silly addNameRange     '1.2.6-beta2',
+62 silly addNameRange     '1.2.6-beta3',
+62 silly addNameRange     '1.2.6',
+62 silly addNameRange     '1.2.7',
+62 silly addNameRange     '1.2.8-beta1',
+62 silly addNameRange     '1.2.8-beta2',
+62 silly addNameRange     '1.2.8' ] ]
+63 verbose addNamed [ 'ionic', '1.2.8' ]
+64 verbose addNamed [ '1.2.8', '1.2.8' ]
+65 silly lockFile 74ce95ae-ionic-1-2-8 ionic@1.2.8
+66 verbose lock ionic@1.2.8 /Users/ross/.npm/74ce95ae-ionic-1-2-8.lock
+67 silly lockFile 65c480ba--npmjs-org-ionic-ionic-1-2-8-tgz https://registry.npmjs.org/ionic/-/ionic-1.2.8.tgz
+68 verbose lock https://registry.npmjs.org/ionic/-/ionic-1.2.8.tgz /Users/ross/.npm/65c480ba--npmjs-org-ionic-ionic-1-2-8-tgz.lock
+69 verbose addRemoteTarball [ 'https://registry.npmjs.org/ionic/-/ionic-1.2.8.tgz',
+69 verbose addRemoteTarball   'b7087e0ba85f358934fa6546a351e966afa771a3' ]
+70 info retry fetch attempt 1 at 08:37:37
+71 verbose fetch to= /var/folders/y6/b91g4tf970586pl0xdp13wc00000gn/T/npm-13508-5udiiuxd/registry.npmjs.org/ionic/-/ionic-1.2.8.tgz
+72 http GET https://registry.npmjs.org/ionic/-/ionic-1.2.8.tgz
+73 http 200 https://registry.npmjs.org/ionic/-/ionic-1.2.8.tgz
+74 silly lockFile 65c480ba--npmjs-org-ionic-ionic-1-2-8-tgz https://registry.npmjs.org/ionic/-/ionic-1.2.8.tgz
+75 silly lockFile 65c480ba--npmjs-org-ionic-ionic-1-2-8-tgz https://registry.npmjs.org/ionic/-/ionic-1.2.8.tgz
+76 silly lockFile 74ce95ae-ionic-1-2-8 ionic@1.2.8
+77 silly lockFile 74ce95ae-ionic-1-2-8 ionic@1.2.8
+78 silly lockFile 966fc04a-ionic ionic@
+79 silly lockFile 966fc04a-ionic ionic@
+80 silly resolved [ { name: 'cordova',
+80 silly resolved     version: '4.1.2',
+80 silly resolved     preferGlobal: 'true',
+80 silly resolved     description: 'Cordova command line interface tool',
+80 silly resolved     main: 'cordova',
+80 silly resolved     engines: { node: '>=0.9.9' },
+80 silly resolved     engineStrict: true,
+80 silly resolved     bin: { cordova: './bin/cordova' },
+80 silly resolved     scripts: { test: 'jasmine-node --captureExceptions --color spec' },
+80 silly resolved     repository:
+80 silly resolved      { type: 'git',
+80 silly resolved        url: 'https://git-wip-us.apache.org/repos/asf/cordova-cli.git' },
+80 silly resolved     bugs:
+80 silly resolved      { url: 'https://issues.apache.org/jira/browse/CB',
+80 silly resolved        email: 'dev@cordova.apache.org' },
+80 silly resolved     keywords: [ 'cordova', 'client', 'cli' ],
+80 silly resolved     dependencies:
+80 silly resolved      { 'cordova-lib': '4.1.2',
+80 silly resolved        q: '1.0.1',
+80 silly resolved        nopt: '3.0.1',
+80 silly resolved        underscore: '1.7.0' },
+80 silly resolved     devDependencies: { 'jasmine-node': '1.14.5' },
+80 silly resolved     author: { name: 'Anis Kadri' },
+80 silly resolved     contributors:
+80 silly resolved      [ [Object],
+80 silly resolved        [Object],
+80 silly resolved        [Object],
+80 silly resolved        [Object],
+80 silly resolved        [Object],
+80 silly resolved        [Object],
+80 silly resolved        [Object],
+80 silly resolved        [Object],
+80 silly resolved        [Object],
+80 silly resolved        [Object],
+80 silly resolved        [Object],
+80 silly resolved        [Object],
+80 silly resolved        [Object],
+80 silly resolved        [Object],
+80 silly resolved        [Object],
+80 silly resolved        [Object],
+80 silly resolved        [Object],
+80 silly resolved        [Object],
+80 silly resolved        [Object],
+80 silly resolved        [Object],
+80 silly resolved        [Object],
+80 silly resolved        [Object],
+80 silly resolved        [Object],
+80 silly resolved        [Object] ],
+80 silly resolved     license: 'Apache version 2.0',
+80 silly resolved     _id: 'cordova@4.1.2',
+80 silly resolved     dist:
+80 silly resolved      { shasum: '68fae142997354777f77c0320229c3798cd496fd',
+80 silly resolved        tarball: 'http://registry.npmjs.org/cordova/-/cordova-4.1.2.tgz' },
+80 silly resolved     _resolved: 'https://registry.npmjs.org/cordova/-/cordova-4.1.2.tgz',
+80 silly resolved     _from: 'cordova@',
+80 silly resolved     _npmVersion: '1.4.3',
+80 silly resolved     _npmUser: { name: 'kamrik', email: 'kamrik@gmail.com' },
+80 silly resolved     maintainers:
+80 silly resolved      [ [Object],
+80 silly resolved        [Object],
+80 silly resolved        [Object],
+80 silly resolved        [Object],
+80 silly resolved        [Object],
+80 silly resolved        [Object],
+80 silly resolved        [Object],
+80 silly resolved        [Object],
+80 silly resolved        [Object],
+80 silly resolved        [Object],
+80 silly resolved        [Object],
+80 silly resolved        [Object],
+80 silly resolved        [Object] ],
+80 silly resolved     directories: {},
+80 silly resolved     _shasum: '68fae142997354777f77c0320229c3798cd496fd',
+80 silly resolved     readme: 'ERROR: No README data found!' },
+80 silly resolved   { name: 'ionic',
+80 silly resolved     version: '1.2.8',
+80 silly resolved     preferGlobal: true,
+80 silly resolved     description: 'A tool for creating and developing Ionic Framework mobile apps.',
+80 silly resolved     homepage: 'http://ionicframework.com/',
+80 silly resolved     bin: { ionic: 'bin/ionic' },
+80 silly resolved     keywords:
+80 silly resolved      [ 'ionic',
+80 silly resolved        'ionic framework',
+80 silly resolved        'ionicframework',
+80 silly resolved        'mobile',
+80 silly resolved        'app',
+80 silly resolved        'hybrid',
+80 silly resolved        'cordova',
+80 silly resolved        'phonegap' ],
+80 silly resolved     repository:
+80 silly resolved      { type: 'git',
+80 silly resolved        url: 'https://github.com/driftyco/ionic-cli.git' },
+80 silly resolved     contributors: [ [Object], [Object], [Object] ],
+80 silly resolved     license: 'MIT',
+80 silly resolved     dependencies:
+80 silly resolved      { archiver: '0.5.1',
+80 silly resolved        colors: '0.6.2',
+80 silly resolved        connect: '3.1.1',
+80 silly resolved        'cross-spawn': '0.2.3',
+80 silly resolved        'connect-livereload': '0.4.0',
+80 silly resolved        'event-stream': '3.0.x',
+80 silly resolved        finalhandler: '0.2.0',
+80 silly resolved        'form-data': '0.1.4',
+80 silly resolved        ncp: '0.4.2',
+80 silly resolved        npm: '2.1.3',
+80 silly resolved        open: '0.0.5',
+80 silly resolved        optimist: '0.6.0',
+80 silly resolved        prompt: '0.2.12',
+80 silly resolved        progress: '1.1.7',
+80 silly resolved        q: '1.0.1',
+80 silly resolved        request: '2.27.0',
+80 silly resolved        'serve-static': '1.6.1',
+80 silly resolved        shelljs: '0.2.6',
+80 silly resolved        'tiny-lr-fork': '0.0.5',
+80 silly resolved        unzip: '0.1.9',
+80 silly resolved        'vinyl-fs': '0.3.7',
+80 silly resolved        xml2js: '0.4.4' },
+80 silly resolved     bugs: { url: 'https://github.com/driftyco/ionic-cli/issues' },
+80 silly resolved     _id: 'ionic@1.2.8',
+80 silly resolved     dist:
+80 silly resolved      { shasum: 'b7087e0ba85f358934fa6546a351e966afa771a3',
+80 silly resolved        tarball: 'http://registry.npmjs.org/ionic/-/ionic-1.2.8.tgz' },
+80 silly resolved     _from: 'ionic@',
+80 silly resolved     _npmVersion: '1.4.4',
+80 silly resolved     _npmUser: { name: 'drifty', email: 'max@drifty.com' },
+80 silly resolved     maintainers: [ [Object] ],
+80 silly resolved     directories: {},
+80 silly resolved     _shasum: 'b7087e0ba85f358934fa6546a351e966afa771a3',
+80 silly resolved     _resolved: 'https://registry.npmjs.org/ionic/-/ionic-1.2.8.tgz' } ]
+81 info install cordova@4.1.2 into /usr/local/lib
+82 info install ionic@1.2.8 into /usr/local/lib
+83 info installOne cordova@4.1.2
+84 info installOne ionic@1.2.8
+85 verbose lib/node_modules/cordova unbuild
+86 verbose lib/node_modules/ionic unbuild
+87 verbose tar unpack /Users/ross/.npm/ionic/1.2.8/package.tgz
+88 silly lockFile 49903aa3-usr-local-lib-node-modules-ionic tar:///usr/local/lib/node_modules/ionic
+89 verbose lock tar:///usr/local/lib/node_modules/ionic /Users/ross/.npm/49903aa3-usr-local-lib-node-modules-ionic.lock
+90 silly lockFile 00b121e9-ross-npm-ionic-1-2-8-package-tgz tar:///Users/ross/.npm/ionic/1.2.8/package.tgz
+91 verbose lock tar:///Users/ross/.npm/ionic/1.2.8/package.tgz /Users/ross/.npm/00b121e9-ross-npm-ionic-1-2-8-package-tgz.lock
+92 silly gunzTarPerm modes [ '755', '644' ]
+93 info preuninstall cordova@4.1.2
+94 info uninstall cordova@4.1.2
+95 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild cordova@4.1.2
+96 verbose /usr/local/bin,[object Object] binRoot
+97 error Error: EACCES, mkdir '/usr/local/lib/node_modules/ionic'
+97 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/ionic']
+97 error   errno: 3,
+97 error   code: 'EACCES',
+97 error   path: '/usr/local/lib/node_modules/ionic',
+97 error   fstream_type: 'Directory',
+97 error   fstream_path: '/usr/local/lib/node_modules/ionic',
+97 error   fstream_class: 'DirWriter',
+97 error   fstream_stack:
+97 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+97 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+97 error      'Object.oncomplete (fs.js:107:15)' ] }
+98 error Please try running this command again as root/Administrator.
+99 error System Darwin 14.0.0
+100 error command "node" "/usr/local/bin/npm" "install" "-g" "cordova" "ionic"
+101 error cwd /Users/ross/Programming/ios/esupport
+102 error node -v v0.10.33
+103 error npm -v 1.4.28
+104 error path /usr/local/lib/node_modules/ionic
+105 error fstream_path /usr/local/lib/node_modules/ionic
+106 error fstream_type Directory
+107 error fstream_class DirWriter
+108 error code EACCES
+109 error errno 3
+110 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/ionic'
+111 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+111 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+111 error fstream_stack Object.oncomplete (fs.js:107:15)
+112 verbose exit [ 3, true ]
