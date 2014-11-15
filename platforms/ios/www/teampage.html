@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="lib/onsen/css/onsenui.css">
     <link rel="stylesheet" href="onsen-css-components.css">
     <link rel="stylesheet" href="teampage.css">
+    <link rel="stylesheet" href="sliding_menu.css">
+
 
     <script src="lib/onsen/js/angular/angular.js"></script>
     <script src="lib/onsen/js/onsenui.js"></script>
@@ -15,26 +17,15 @@
 
   </head>
   <body>
-
-    <ons-tabbar>
-      <ons-tab page="page.html" icon="ion-search" label="Find a place" active="true">
-      </ons-tab>
-      <ons-tab page="page.html" icon="ion-heart" label="Favorites">
-      </ons-tab>
-      <ons-tab page="page.html" icon="ion-person" label="Profile">
-      </ons-tab>
-    </ons-tabbar>
-
     <ons-template id="page.html">
       <ons-page modifier="shop-details">
-        <ons-toolbar modifier="transparent">
-          <div class="right">
-            <ons-toolbar-button><ons-icon icon="ion-plus-round" style="color: white"></ons-icon></ons-toolbar-button>
-            Follow
-          </div>
+        <ons-toolbar style="margin-top:20px">
           <div class="left">
-            <ons-toolbar-button><ons-icon icon="ion-arrow-left-c" style="color: white; font-size: 28px;" fixed-width="false"></ons-icon></ons-toolbar-button>
+            <ons-toolbar-button ng-click="ons.slidingMenu.toggleMenu()" >
+              <ons-icon icon="ion-navicon" size="28px" fixed-width="false"></ons-icon>
+            </ons-toolbar-button>
           </div>
+          <div class="center"><input type="search" class="search-input" placeholder="Search"></input></div>
         </ons-toolbar>
 
         <div class="card">
@@ -44,14 +35,14 @@
 
         </div>
 
-        <div class="rating"><div class="rating-num">
-            <ons-icon icon="fa-star" fixed-width="false"></ons-icon>
-            <ons-icon icon="fa-star" fixed-width="false"></ons-icon>
-            <ons-icon icon="fa-star" fixed-width="false"></ons-icon>
-            <ons-icon icon="fa-star" fixed-width="false"></ons-icon>
-            <ons-icon icon="fa-star-half" fixed-width="false"></ons-icon>
-            4.5
-        </div></div>
+        <div class="follow">
+          <ons-toolbar-button class="content-padded">
+          <div class="follow-num">
+
+              <ons-icon icon="ion-plus-round" fixed-width="false"></ons-icon>
+              Follow
+
+        </div></ons-toolbar-button></div>
 
         <ons-list style="border-top: none"><ons-list-item style="line-height: 1; padding: 0;">
           <ons-row class="action">
@@ -108,7 +99,7 @@
             </div>
           </ons-list-item>
         </ons-list>
-
+  
       </ons-page>
     </ons-template>
 

@@ -49,7 +49,7 @@ h6 {
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
   font-size: 17px;
-  background-color: #2b293b;
+  background-color: #242424;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -63,7 +63,7 @@ h6 {
   display: none;
 }
 .page__content {
-  background-color: #2b293b;
+  background-color: #242424;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -75,7 +75,7 @@ h6 {
   margin-top: -1px;
 }
 .page__background {
-  background-color: #2b293b;
+  background-color: #242424;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -2932,7 +2932,7 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   height: 31px;
   font-size: 15px;
   border: 1px solid #424242;
-  background-color: #2b293b;
+  background-color: #242424;
   -webkit-box-shadow: none;
   box-shadow: none;
   color: #fff;
@@ -2949,7 +2949,7 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   width: 100%;
 }
 .search-input:focus {
-  background-color: #2b293b;
+  background-color: #242424;
   color: #fff;
   border: 1px solid #424242;
   -webkit-box-shadow: none;
@@ -3006,7 +3006,7 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   border: 1px solid #424242;
   -webkit-border-radius: 4px;
   border-radius: 4px;
-  background-color: #2b293b;
+  background-color: #242424;
   -webkit-box-shadow: none;
   box-shadow: none;
   color: #fff;
@@ -3071,7 +3071,7 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   border: 1px solid #424242;
   -webkit-border-radius: 4px;
   border-radius: 4px;
-  background-color: #2b293b;
+  background-color: #242424;
   -webkit-box-shadow: none;
   box-shadow: none;
   color: #fff;
@@ -3141,7 +3141,7 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   border: 1px solid #424242;
   -webkit-border-radius: 4px;
   border-radius: 4px;
-  background-color: #2b293b;
+  background-color: #242424;
   -webkit-box-shadow: none;
   box-shadow: none;
   color: #fff;
@@ -3217,7 +3217,7 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   -webkit-border-radius: 4px;
   border-radius: 4px;
   border: 1px solid #424242;
-  background-color: #2b293b;
+  background-color: #242424;
   color: #fff;
   letter-spacing: 0;
   -webkit-box-shadow: none;

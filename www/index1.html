@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="lib/onsen/css/onsenui.css">
     <link rel="stylesheet" href="onsen-css-components.css">
     <link rel="stylesheet" href="sliding_menu.css">
-    <link rel="stylesheet" href="teampage.css">
 
     <script src="lib/onsen/js/angular/angular.js"></script>
     <script src="lib/onsen/js/onsenui.js"></script>
@@ -84,13 +83,16 @@
         </ons-list>
 
         <br>
+        <script type="text/ons-template" id="menu.html">
+
         <ons-list class="bottom-menu-list">
-          <ons-list-item class="bottom-menu-item" modifier="tappable" onclick="menu.setMainPage('teampage.html');">
+          <ons-list-item class="bottom-menu-item" modifier="chevron" onclick="myNavigator.setMainPage('teampage.html');">
             <ons-icon icon="ion-ios7-cloudy"></ons-icon>
             Cloud 9
             <div class="notification menu-notification">3</div>
           </ons-list-item>
         </ons-list>
+        </script>
 
 
 

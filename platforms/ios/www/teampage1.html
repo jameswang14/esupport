@@ -99,7 +99,57 @@
             </div>
           </ons-list-item>
         </ons-list>
-  
+
+      </ons-page>
+    </ons-template>
+
+    <ons-template id="menu.html">
+      <ons-navigator title="Navigator" var="myNavigator">
+      <ons-page modifier="menu-page" style="margin-top=20px">
+        <ons-toolbar modifier="transparent" style="margin-top:20px">
+          <div class="left">
+            <ons-toolbar-button class="content-padded">My Profile</ons-toolbar-button>
+          </div>
+          <div class="right">
+            <ons-toolbar-button class="menu-close" ng-click="menu.close()">
+              </ons-icon>Close
+            </ons-toolbar-button>
+          </div>
+        </ons-toolbar>
+
+        <ons-list class="menu-list">
+          <ons-list-item class="menu-item" ng-click="menu.close()">
+            
+          </ons-list-item>
+
+          <ons-list-item class="menu-item" ng-click="menu.close()">
+          <ons-icon icon="ion-ios7-home"></ons-icon>
+            Home
+          </ons-list-item>
+
+          <ons-list-item class="menu-item" ng-click="menu.close()">
+            News
+          </ons-list-item>
+
+          <ons-list-item class="menu-item" ng-click="menu.close()">
+            Scores
+          </ons-list-item>
+        </ons-list>
+
+        <br>
+        <script type="text/ons-template" id="menu.html">
+
+        <ons-list class="bottom-menu-list">
+          <ons-list-item class="bottom-menu-item" modifier="chevron" onclick="menu.setBehindPage('teampage.html', {closeMenu: true});">
+            <ons-icon icon="ion-ios7-cloudy"></ons-icon>
+            Cloud 9
+            <div class="notification menu-notification">3</div>
+          </ons-list-item>
+        </ons-list>
+        </script>
+
+
+
       </ons-page>
     </ons-template>
 
