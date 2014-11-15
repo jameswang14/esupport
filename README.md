@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Onsen UI Quick Startup Guide
 ====
 
@@ -46,3 +47,7 @@ You should see running app on browser and you can start to develop your app with
  * `gulp serve` - Running the app for development.
  * `gulp build` - Build several files for project.
  * `gulp jshint` - Generate [jshint](https://github.com/jshint/jshint) report.
+=======
+esupport
+========
+>>>>>>> 7baee9f4e0c32550b6c2353d0da741b39bf15fda
