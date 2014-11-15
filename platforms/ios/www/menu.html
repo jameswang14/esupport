@@ -14,7 +14,7 @@
 
   <ons-list class="menu-list">
 
-    <ons-list-item class="bottom-menu-item" modifier="chevron" onclick="menu.setMainPage('page.html', {closeMenu: true});">
+    <ons-list-item id="first" class="menu-item" modifier="chevron" onclick="menu.setMainPage('page.html', {closeMenu: true});">
       <ons-icon icon="ion-ios7-home"></ons-icon>
       Home
     </ons-list-item>
@@ -30,11 +30,19 @@
 
   <br>
   <ons-list class="bottom-menu-list">
+
     <ons-list-item class="bottom-menu-item" modifier="tappable" onclick="menu.setMainPage('teampage.html', {closeMenu: true});">
       <ons-icon icon="ion-ios7-cloudy"></ons-icon>
       Cloud 9
-      <div class="notification menu-notification">3</div>
+      <div class="notification menu-notification">2</div>
     </ons-list-item>
+
+    <ons-list-item class="bottom-menu-item" modifier="tappable" onclick="menu.setMainPage('playerprofile.html', {closeMenu: true});">
+      <ons-icon icon="ion-ios7-cloudy"></ons-icon>
+      C9 Sneaky
+      <div class="notification menu-notification">2</div>
+    </ons-list-item>
+
   </ons-list>
 
 
