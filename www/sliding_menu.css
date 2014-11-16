@@ -131,7 +131,7 @@ input[type="search"].search-input::-webkit-search-cancel-button {
 .list-item-container {
   line-height: 1;
   margin-top:40px;
-  padding: 25px 0px 25px 25px;
+  padding: 20px 5px 20px 5px;
 }
 
 .thumbnail {
