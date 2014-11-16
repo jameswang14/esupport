@@ -5,21 +5,34 @@
         <ons-icon icon="ion-navicon" size="28px" fixed-width="false"></ons-icon>
       </ons-toolbar-button>
     </div>
-    <div class="center"><input type="search" class="search-input" placeholder="Search"></input></div>
+    <form>
+    <div class="center"><input type="search" value="Search" id="team-search" class="search-input" placeholder="Search"></input></div>
+  </form>
   </ons-toolbar>
     <div class="topBar"></div>
     <ons-list>
 
       <ons-list-item modifier="chevron" class="list-item-container">
         <ons-row>
-          <ons-col>
-            <div class="desc" ng-controller="GetMatchController" >
-              lk{{results}}kj
-            </div>
+          <ons-col class="action-col" ng-controller="GetTeam1Controller" ng-style="{'color':fontColor}">
+          {{results}}  
           </ons-col>
-          <ons-col width="40px"></ons-col>
+                   <ons-col class="action-col" ng-controller="GetScoreController">
+              {{results}}
+               </ons-col>
+             <ons-col class="action-col"ng-controller="GetTeam2Controller" ng-style="{'color':fontColor}">
+              {{results}}
+               </ons-col>
+            <!--div class = "desc" ng-controller="ReturnSearchedTeams" ng-init="init('Team SoloMid')">
+              {{returnTeam}}
+            </div-->
         </ons-row>
+
+        <ons-row>
+
+      </ons-row>
       </ons-list-item>
 
     </ons-list>
 </ons-page>
+
