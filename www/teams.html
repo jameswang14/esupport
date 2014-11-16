@@ -1,0 +1,65 @@
+<ons-page modifier="shop-details">
+	<ons-toolbar style="margin-top:20px">
+		<div class="left">
+			<ons-toolbar-button ng-click="ons.slidingMenu.toggleMenu()" >
+				<ons-icon icon="ion-navicon" size="28px" fixed-width="false"></ons-icon>
+			</ons-toolbar-button>
+		</div>
+		<div class="center"><input type="search" class="search-input" placeholder="Search"></input></div>
+	</ons-toolbar>
+	<div class="topBar"></div>
+
+      <ons-list>
+
+				<ons-list-item class="bottom-menu-item" modifier="tappable" onclick="menu.setMainPage('c9.html', {closeMenu: true}); style="margin-top:50px"">
+					<img rel="icon" src="leagueoflegends.ico">
+					Cloud 9
+				</ons-list-item>
+
+				<ons-list-item class="bottom-menu-item" modifier="tappable" onclick="menu.setMainPage('all.html', {closeMenu: true});">
+					<img rel="icon" src="leagueoflegends.ico">
+					Alliance
+				</ons-list-item>
+
+				<ons-list-item class="bottom-menu-item" modifier="tappable" onclick="menu.setMainPage('fnc.html', {closeMenu: true});">
+					<img rel="icon" src="leagueoflegends.ico">
+					Fnatic
+				</ons-list-item>
+
+				<ons-list-item class="bottom-menu-item" modifier="tappable" onclick="menu.setMainPage('tsm.html', {closeMenu: true});">
+					<img rel="icon" src="leagueoflegends.ico">
+					Team SoloMid
+				</ons-list-item>
+
+				<ons-list-item class="bottom-menu-item" modifier="tappable" onclick="menu.setMainPage('ssw.html', {closeMenu: true});">
+					<img rel="icon" src="leagueoflegends.ico">
+					Samsung White
+				</ons-list-item>
+
+				<ons-list-item class="bottom-menu-item" modifier="tappable" onclick="menu.setMainPage('ssb.html', {closeMenu: true});">
+					<img rel="icon" src="leagueoflegends.ico">
+					Samsung Blue
+				</ons-list-item>
+
+				<ons-list-item class="bottom-menu-item" modifier="tappable" onclick="menu.setMainPage('njws.html', {closeMenu: true});">
+					<img rel="icon" src="leagueoflegends.ico">
+					Najin White Shield
+				</ons-list-item>
+
+				<ons-list-item class="bottom-menu-item" modifier="tappable" onclick="menu.setMainPage('shrc.html', {closeMenu: true});">
+					<img rel="icon" src="leagueoflegends.ico">
+					Starhorn Royal Club
+				</ons-list-item>
+
+				<ons-list-item class="bottom-menu-item" modifier="tappable" onclick="menu.setMainPage('m5.html', {closeMenu: true});">
+					<img rel="icon" src="dota2.ico">
+					Moscow 5
+				</ons-list-item>
+
+				<ons-list-item class="bottom-menu-item" modifier="tappable" onclick="menu.setMainPage('tl.html', {closeMenu: true});">
+					<img rel="icon" src="hearthstone.ico">
+					Team Liquid
+				</ons-list-item>
+
+      </ons-list>
+		</ons-page>

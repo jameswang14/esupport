@@ -1,0 +1,21 @@
+<ons-page modifier="shop-details">
+	<ons-toolbar style="margin-top:20px">
+		<div class="left">
+			<ons-toolbar-button ng-click="ons.slidingMenu.toggleMenu()" >
+				<ons-icon icon="ion-navicon" size="28px" fixed-width="false"></ons-icon>
+			</ons-toolbar-button>
+		</div>
+		<div class="center"><input type="search" class="search-input" placeholder="Search"></input></div>
+	</ons-toolbar>
+	<div class="topBar"></div>
+
+      <ons-list>
+
+				<ons-list-item class="bottom-menu-item" modifier="tappable" onclick="menu.setMainPage('worlds2014.html', {closeMenu: true});" style="margin-top:50px">
+					<ons-icon icon="ion-trophy"></ons-icon>
+					Worlds 2014
+				</ons-list-item>
+
+
+      </ons-list>
+		</ons-page>

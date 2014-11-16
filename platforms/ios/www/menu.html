@@ -19,12 +19,12 @@
       Home
     </ons-list-item>
 
-    <ons-list-item class="menu-item" ng-click="menu.close()">
-      News
+    <ons-list-item class="menu-item" modifier="tappable" onclick="menu.setMainPage('teams.html', {closeMenu: true});">
+      Teams
     </ons-list-item>
 
-    <ons-list-item class="menu-item" ng-click="menu.close()">
-      Scores
+    <ons-list-item class="menu-item" modifier="tappable" onclick="menu.setMainPage('tournaments.html', {closeMenu: true});">
+      Tournaments/Leagues
     </ons-list-item>
   </ons-list>
 
