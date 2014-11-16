@@ -25,7 +25,7 @@
 
     <ons-list-item class="menu-item" ng-click="menu.close()">
       Scores
-    </ons-list-item>
+    </ons-list-item>  
   </ons-list>
 
   <br>
@@ -41,6 +41,13 @@
       <ons-icon icon="ion-ios7-cloudy"></ons-icon>
       C9 Sneaky
       <div class="notification menu-notification">2</div>
+    </ons-list-item>
+
+
+    <ons-list-item class="bottom-menu-item" modifier="tappable" onclick="menu.setMainPage('tournament.html', {closeMenu: true});">
+      <ons-icon icon="ion-trophy"></ons-icon>
+      Worlds 2014
+      <div class="notification menu-notification">13</div>
     </ons-list-item>
 
   </ons-list>
