@@ -3850,3 +3850,264 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 
 2014-11-15 19:37:39.768 HelloCordova[60393:1469642] Resetting plugins due to page load.
 2014-11-15 19:37:40.246 HelloCordova[60393:1469642] Finished load of: file:///Users/ross/Library/Developer/CoreSimulator/Devices/4A4830E4-E656-42E9-9856-F719703AB806/data/Containers/Bundle/Application/359CA327-460E-49D2-9F90-1A58BE3AB88A/HelloCordova.app/www/index.html
+2014-11-15 22:45:32.250 HelloCordova[60836:1479323] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/ross/Library/Developer/CoreSimulator/Devices/4A4830E4-E656-42E9-9856-F719703AB806/data/Containers/Data/Application/BBCE272B-2CDC-414D-B0CB-378F097F7FAA/Library/Cookies/Cookies.binarycookies
+2014-11-15 22:45:32.373 HelloCordova[60836:1479323] Apache Cordova native platform version 3.7.0 is starting.
+2014-11-15 22:45:32.374 HelloCordova[60836:1479323] Multi-tasking -> Device: YES, App: YES
+2014-11-15 22:45:32.376 HelloCordova[60836:1479323] Unlimited access to network resources
+2014-11-15 22:45:32.381 HelloCordova[60836:1479323] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2014-11-15 22:45:32.904 HelloCordova[60836:1479323] Resetting plugins due to page load.
+2014-11-15 22:45:33.059 HelloCordova[60836:1479323] Finished load of: file:///Users/ross/Library/Developer/CoreSimulator/Devices/4A4830E4-E656-42E9-9856-F719703AB806/data/Containers/Bundle/Application/5D2F53E9-863E-4F23-A270-3F2DECC975DA/HelloCordova.app/www/index.html
+2014-11-16 00:23:25.342 HelloCordova[61335:1508926] Apache Cordova native platform version 3.7.0 is starting.
+2014-11-16 00:23:25.343 HelloCordova[61335:1508926] Multi-tasking -> Device: YES, App: YES
+2014-11-16 00:23:25.344 HelloCordova[61335:1508926] Unlimited access to network resources
+2014-11-16 00:23:25.346 HelloCordova[61335:1508926] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2014-11-16 00:23:25.740 HelloCordova[61335:1508926] Resetting plugins due to page load.
+2014-11-16 00:23:25.899 HelloCordova[61335:1508926] Finished load of: file:///Users/ross/Library/Developer/CoreSimulator/Devices/4A4830E4-E656-42E9-9856-F719703AB806/data/Containers/Bundle/Application/12B5FCF0-A97B-4820-B8E6-9EF6705C143A/HelloCordova.app/www/index.html
+2014-11-16 00:24:42.590 HelloCordova[61514:1510310] Apache Cordova native platform version 3.7.0 is starting.
+2014-11-16 00:24:42.590 HelloCordova[61514:1510310] Multi-tasking -> Device: YES, App: YES
+2014-11-16 00:24:42.592 HelloCordova[61514:1510310] Unlimited access to network resources
+2014-11-16 00:24:42.594 HelloCordova[61514:1510310] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2014-11-16 00:24:42.873 HelloCordova[61514:1510310] Resetting plugins due to page load.
+2014-11-16 00:24:43.016 HelloCordova[61514:1510310] Finished load of: file:///Users/ross/Library/Developer/CoreSimulator/Devices/4A4830E4-E656-42E9-9856-F719703AB806/data/Containers/Bundle/Application/787E597D-E2A2-4A74-B8AE-E2D422B5F0A1/HelloCordova.app/www/index.html
+2014-11-16 00:26:39.080 HelloCordova[61695:1511568] Apache Cordova native platform version 3.7.0 is starting.
+2014-11-16 00:26:39.081 HelloCordova[61695:1511568] Multi-tasking -> Device: YES, App: YES
+2014-11-16 00:26:39.082 HelloCordova[61695:1511568] Unlimited access to network resources
+2014-11-16 00:26:39.085 HelloCordova[61695:1511568] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2014-11-16 00:26:39.365 HelloCordova[61695:1511568] Resetting plugins due to page load.
+2014-11-16 00:26:39.664 HelloCordova[61695:1511568] Finished load of: file:///Users/ross/Library/Developer/CoreSimulator/Devices/4A4830E4-E656-42E9-9856-F719703AB806/data/Containers/Bundle/Application/585D4B06-68B8-4EA0-9739-F0D1821C651B/HelloCordova.app/www/index.html
+2014-11-16 00:26:59.913 HelloCordova[61870:1512236] Apache Cordova native platform version 3.7.0 is starting.
+2014-11-16 00:26:59.915 HelloCordova[61870:1512236] Multi-tasking -> Device: YES, App: YES
+2014-11-16 00:26:59.917 HelloCordova[61870:1512236] Unlimited access to network resources
+2014-11-16 00:26:59.921 HelloCordova[61870:1512236] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2014-11-16 00:27:00.221 HelloCordova[61870:1512236] Resetting plugins due to page load.
+2014-11-16 00:27:00.353 HelloCordova[61870:1512236] Finished load of: file:///Users/ross/Library/Developer/CoreSimulator/Devices/4A4830E4-E656-42E9-9856-F719703AB806/data/Containers/Bundle/Application/D2108463-7BD3-4190-9486-FC0A9A73062C/HelloCordova.app/www/index.html
+2014-11-16 00:27:59.268 HelloCordova[62047:1513039] Apache Cordova native platform version 3.7.0 is starting.
+2014-11-16 00:27:59.269 HelloCordova[62047:1513039] Multi-tasking -> Device: YES, App: YES
+2014-11-16 00:27:59.270 HelloCordova[62047:1513039] Unlimited access to network resources
+2014-11-16 00:27:59.274 HelloCordova[62047:1513039] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2014-11-16 00:27:59.558 HelloCordova[62047:1513039] Resetting plugins due to page load.
+2014-11-16 00:27:59.694 HelloCordova[62047:1513039] Finished load of: file:///Users/ross/Library/Developer/CoreSimulator/Devices/4A4830E4-E656-42E9-9856-F719703AB806/data/Containers/Bundle/Application/78BDD0C3-642D-44A0-A4E6-88B65C3E7A5E/HelloCordova.app/www/index.html
+2014-11-16 00:30:27.018 HelloCordova[62231:1516692] Apache Cordova native platform version 3.7.0 is starting.
+2014-11-16 00:30:27.019 HelloCordova[62231:1516692] Multi-tasking -> Device: YES, App: YES
+2014-11-16 00:30:27.020 HelloCordova[62231:1516692] Unlimited access to network resources
+2014-11-16 00:30:27.023 HelloCordova[62231:1516692] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2014-11-16 00:30:27.436 HelloCordova[62231:1516692] Resetting plugins due to page load.
+2014-11-16 00:30:27.598 HelloCordova[62231:1516692] Finished load of: file:///Users/ross/Library/Developer/CoreSimulator/Devices/4A4830E4-E656-42E9-9856-F719703AB806/data/Containers/Bundle/Application/FE197D62-6C8F-48BB-96FA-1979069F9EFC/HelloCordova.app/www/index.html
+2014-11-16 00:30:57.284 HelloCordova[62406:1517385] Apache Cordova native platform version 3.7.0 is starting.
+2014-11-16 00:30:57.286 HelloCordova[62406:1517385] Multi-tasking -> Device: YES, App: YES
+2014-11-16 00:30:57.288 HelloCordova[62406:1517385] Unlimited access to network resources
+2014-11-16 00:30:57.291 HelloCordova[62406:1517385] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2014-11-16 00:30:57.582 HelloCordova[62406:1517385] Resetting plugins due to page load.
+2014-11-16 00:30:57.729 HelloCordova[62406:1517385] Finished load of: file:///Users/ross/Library/Developer/CoreSimulator/Devices/4A4830E4-E656-42E9-9856-F719703AB806/data/Containers/Bundle/Application/B0EC5578-1267-44F8-9D10-05B31C992227/HelloCordova.app/www/index.html
+2014-11-16 00:31:52.770 HelloCordova[62581:1518491] Apache Cordova native platform version 3.7.0 is starting.
+2014-11-16 00:31:52.771 HelloCordova[62581:1518491] Multi-tasking -> Device: YES, App: YES
+2014-11-16 00:31:52.772 HelloCordova[62581:1518491] Unlimited access to network resources
+2014-11-16 00:31:52.774 HelloCordova[62581:1518491] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2014-11-16 00:31:53.057 HelloCordova[62581:1518491] Resetting plugins due to page load.
+2014-11-16 00:31:53.194 HelloCordova[62581:1518491] Finished load of: file:///Users/ross/Library/Developer/CoreSimulator/Devices/4A4830E4-E656-42E9-9856-F719703AB806/data/Containers/Bundle/Application/D9DD8C18-323D-42F3-816F-9C9A67CBCBBC/HelloCordova.app/www/index.html
+2014-11-16 00:33:34.416 HelloCordova[62756:1519638] Apache Cordova native platform version 3.7.0 is starting.
+2014-11-16 00:33:34.417 HelloCordova[62756:1519638] Multi-tasking -> Device: YES, App: YES
+2014-11-16 00:33:34.418 HelloCordova[62756:1519638] Unlimited access to network resources
+2014-11-16 00:33:34.420 HelloCordova[62756:1519638] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2014-11-16 00:33:34.701 HelloCordova[62756:1519638] Resetting plugins due to page load.
+2014-11-16 00:33:34.834 HelloCordova[62756:1519638] Finished load of: file:///Users/ross/Library/Developer/CoreSimulator/Devices/4A4830E4-E656-42E9-9856-F719703AB806/data/Containers/Bundle/Application/3915BD24-88FD-4047-A849-D36640937CF2/HelloCordova.app/www/index.html
+2014-11-16 00:39:00.473 HelloCordova[62939:1521703] Apache Cordova native platform version 3.7.0 is starting.
+2014-11-16 00:39:00.474 HelloCordova[62939:1521703] Multi-tasking -> Device: YES, App: YES
+2014-11-16 00:39:00.476 HelloCordova[62939:1521703] Unlimited access to network resources
+2014-11-16 00:39:00.478 HelloCordova[62939:1521703] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2014-11-16 00:39:00.772 HelloCordova[62939:1521703] Resetting plugins due to page load.
+2014-11-16 00:39:00.919 HelloCordova[62939:1521703] Finished load of: file:///Users/ross/Library/Developer/CoreSimulator/Devices/4A4830E4-E656-42E9-9856-F719703AB806/data/Containers/Bundle/Application/9D32B824-4A33-491A-AD0E-2B34059A4C0F/HelloCordova.app/www/index.html
+2014-11-16 00:39:39.640 HelloCordova[63114:1522447] Apache Cordova native platform version 3.7.0 is starting.
+2014-11-16 00:39:39.641 HelloCordova[63114:1522447] Multi-tasking -> Device: YES, App: YES
+2014-11-16 00:39:39.642 HelloCordova[63114:1522447] Unlimited access to network resources
+2014-11-16 00:39:39.644 HelloCordova[63114:1522447] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2014-11-16 00:39:39.939 HelloCordova[63114:1522447] Resetting plugins due to page load.
+2014-11-16 00:39:40.080 HelloCordova[63114:1522447] Finished load of: file:///Users/ross/Library/Developer/CoreSimulator/Devices/4A4830E4-E656-42E9-9856-F719703AB806/data/Containers/Bundle/Application/8CB30F8B-743C-4D7B-AA6F-1B30A47D5B02/HelloCordova.app/www/index.html
+2014-11-16 00:39:54.524 HelloCordova[63289:1523057] Apache Cordova native platform version 3.7.0 is starting.
+2014-11-16 00:39:54.525 HelloCordova[63289:1523057] Multi-tasking -> Device: YES, App: YES
+2014-11-16 00:39:54.526 HelloCordova[63289:1523057] Unlimited access to network resources
+2014-11-16 00:39:54.528 HelloCordova[63289:1523057] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2014-11-16 00:39:54.821 HelloCordova[63289:1523057] Resetting plugins due to page load.
+2014-11-16 00:39:54.969 HelloCordova[63289:1523057] Finished load of: file:///Users/ross/Library/Developer/CoreSimulator/Devices/4A4830E4-E656-42E9-9856-F719703AB806/data/Containers/Bundle/Application/E153E83F-920F-4E19-97A7-19D637BDE058/HelloCordova.app/www/index.html
+2014-11-16 00:40:40.510 HelloCordova[63466:1523775] Apache Cordova native platform version 3.7.0 is starting.
+2014-11-16 00:40:40.511 HelloCordova[63466:1523775] Multi-tasking -> Device: YES, App: YES
+2014-11-16 00:40:40.513 HelloCordova[63466:1523775] Unlimited access to network resources
+2014-11-16 00:40:40.516 HelloCordova[63466:1523775] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2014-11-16 00:40:40.790 HelloCordova[63466:1523775] Resetting plugins due to page load.
+2014-11-16 00:40:40.931 HelloCordova[63466:1523775] Finished load of: file:///Users/ross/Library/Developer/CoreSimulator/Devices/4A4830E4-E656-42E9-9856-F719703AB806/data/Containers/Bundle/Application/55E6F4E4-02C6-4752-B0DA-99FEB573CBF0/HelloCordova.app/www/index.html
+2014-11-16 00:42:40.660 HelloCordova[63641:1524817] Apache Cordova native platform version 3.7.0 is starting.
+2014-11-16 00:42:40.661 HelloCordova[63641:1524817] Multi-tasking -> Device: YES, App: YES
+2014-11-16 00:42:40.662 HelloCordova[63641:1524817] Unlimited access to network resources
+2014-11-16 00:42:40.665 HelloCordova[63641:1524817] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2014-11-16 00:42:40.933 HelloCordova[63641:1524817] Resetting plugins due to page load.
+2014-11-16 00:42:41.066 HelloCordova[63641:1524817] Finished load of: file:///Users/ross/Library/Developer/CoreSimulator/Devices/4A4830E4-E656-42E9-9856-F719703AB806/data/Containers/Bundle/Application/0486203A-3CFA-4C11-A0E2-1565280DDBDF/HelloCordova.app/www/index.html
+2014-11-16 00:50:49.866 HelloCordova[63849:1527986] Apache Cordova native platform version 3.7.0 is starting.
+2014-11-16 00:50:49.867 HelloCordova[63849:1527986] Multi-tasking -> Device: YES, App: YES
+2014-11-16 00:50:49.872 HelloCordova[63849:1527986] Unlimited access to network resources
+2014-11-16 00:50:49.877 HelloCordova[63849:1527986] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2014-11-16 00:50:50.177 HelloCordova[63849:1527986] Resetting plugins due to page load.
+2014-11-16 00:50:50.338 HelloCordova[63849:1527986] Finished load of: file:///Users/ross/Library/Developer/CoreSimulator/Devices/4A4830E4-E656-42E9-9856-F719703AB806/data/Containers/Bundle/Application/6688DADA-97E9-480B-AE8B-6755BF20D583/HelloCordova.app/www/index.html
+2014-11-16 00:56:21.047 HelloCordova[64047:1530652] Apache Cordova native platform version 3.7.0 is starting.
+2014-11-16 00:56:21.048 HelloCordova[64047:1530652] Multi-tasking -> Device: YES, App: YES
+2014-11-16 00:56:21.049 HelloCordova[64047:1530652] Unlimited access to network resources
+2014-11-16 00:56:21.052 HelloCordova[64047:1530652] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2014-11-16 00:56:21.418 HelloCordova[64047:1530652] Resetting plugins due to page load.
+2014-11-16 00:56:21.551 HelloCordova[64047:1530652] Finished load of: file:///Users/ross/Library/Developer/CoreSimulator/Devices/4A4830E4-E656-42E9-9856-F719703AB806/data/Containers/Bundle/Application/B7A5F7AA-1ACA-4448-ABFB-93E5B74893ED/HelloCordova.app/www/index.html
+2014-11-16 01:01:58.199 HelloCordova[64686:1536081] Apache Cordova native platform version 3.7.0 is starting.
+2014-11-16 01:01:58.201 HelloCordova[64686:1536081] Multi-tasking -> Device: YES, App: YES
+2014-11-16 01:01:58.202 HelloCordova[64686:1536081] Unlimited access to network resources
+2014-11-16 01:01:58.205 HelloCordova[64686:1536081] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2014-11-16 01:01:58.666 HelloCordova[64686:1536081] Resetting plugins due to page load.
+2014-11-16 01:01:58.840 HelloCordova[64686:1536081] Finished load of: file:///Users/ross/Library/Developer/CoreSimulator/Devices/4A4830E4-E656-42E9-9856-F719703AB806/data/Containers/Bundle/Application/94C32A8D-FED0-4DA6-B334-43C9B0EB151A/HelloCordova.app/www/index.html
+2014-11-16 01:04:39.804 HelloCordova[65023:1537494] Apache Cordova native platform version 3.7.0 is starting.
+2014-11-16 01:04:39.804 HelloCordova[65023:1537494] Multi-tasking -> Device: YES, App: YES
+2014-11-16 01:04:39.806 HelloCordova[65023:1537494] Unlimited access to network resources
+2014-11-16 01:04:39.809 HelloCordova[65023:1537494] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2014-11-16 01:04:40.138 HelloCordova[65023:1537494] Resetting plugins due to page load.
+2014-11-16 01:04:40.285 HelloCordova[65023:1537494] Finished load of: file:///Users/ross/Library/Developer/CoreSimulator/Devices/4A4830E4-E656-42E9-9856-F719703AB806/data/Containers/Bundle/Application/1B92E070-3EA0-428D-B1F4-4913E8A3F41C/HelloCordova.app/www/index.html
+2014-11-16 01:06:32.809 HelloCordova[65366:1538751] Apache Cordova native platform version 3.7.0 is starting.
+2014-11-16 01:06:32.810 HelloCordova[65366:1538751] Multi-tasking -> Device: YES, App: YES
+2014-11-16 01:06:32.811 HelloCordova[65366:1538751] Unlimited access to network resources
+2014-11-16 01:06:32.813 HelloCordova[65366:1538751] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2014-11-16 01:06:33.115 HelloCordova[65366:1538751] Resetting plugins due to page load.
+2014-11-16 01:06:33.385 HelloCordova[65366:1538751] Finished load of: file:///Users/ross/Library/Developer/CoreSimulator/Devices/4A4830E4-E656-42E9-9856-F719703AB806/data/Containers/Bundle/Application/F21BACD1-31AA-4701-83B1-1C2B63FC0B52/HelloCordova.app/www/index.html
