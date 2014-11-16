@@ -1,4 +1,4 @@
-<ons-page modifier="shop-details" ng-controller="GetMatchController" >
+<ons-page modifier="shop-details" >
   <ons-toolbar style="margin-top:20px">
     <div class="left">
       <ons-toolbar-button ng-click="ons.slidingMenu.toggle()">
@@ -15,15 +15,8 @@
       <ons-list-item modifier="tappable" class="list-item-container">
       <div>
         <ons-row>
-<<<<<<< HEAD
-          <ons-col>
-            <div class="desc"  >
-             {{results}}
-            </div>
-=======
           <ons-col class="action-col" ng-controller="GetTeam1Controller" ng-style="{'color':fontColor}">
           {{results}}  
->>>>>>> b366b9efc9f93c205eed2e8cf8411dea717bf9c0
           </ons-col>
                    <ons-col class="action-col" ng-controller="GetScoreController">
               {{results}}
@@ -41,10 +34,10 @@
               <ons-col class="action-col" ng-controller="GetDateController">
               {{results}}
                </ons-col>
-              <ons-col class="action-col" ng-controller="GetTimeController">
+              <ons-col class="action-col" ng-controller="GetLeagueController">
               {{results}}
             </ons-col>
-            <ons-col class="action-col" ng-controller="GetLeagueController">
+            <ons-col class="action-col" ng-controller="GetTimeController">
               {{results}}
             </ons-col>
 

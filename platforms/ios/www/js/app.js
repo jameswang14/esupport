@@ -2,12 +2,6 @@
 
 (function(){
   'use strict'
-<<<<<<< HEAD
-  var teams = [];
-  var module = angular.module('app', ['onsen']);
-  module.controller(
-    'GetMatchController', ['$scope', '$http', function($scope, $http) {
-=======
   var followedTeams = [];
   var searchedTeam;
   var counter = 0;
@@ -74,16 +68,11 @@
 
     module.controller(
     'GetDateController', ['$scope', '$http', function($scope, $http) {
->>>>>>> b366b9efc9f93c205eed2e8cf8411dea717bf9c0
 
     $http.get(
-      "https://www.kimonolabs.com/api/ckndzvl0?apikey=BsZyX8bXMCMKLt0LIyhOVkKv91tYUfLQ").
+      "https://www.kimonolabs.com/api/4ag7ique?apikey=BsZyX8bXMCMKLt0LIyhOVkKv91tYUfLQ").
     success(function(data){
-<<<<<<< HEAD
-      $scope.results = "ljj";
-=======
-      $scope.results = data.results.collection1[counter].Date;
->>>>>>> b366b9efc9f93c205eed2e8cf8411dea717bf9c0
+      $scope.results = data.results.collection1[counter].Date.text;
     }).error(function(){
       $scope.results = "fail";
     });
@@ -94,7 +83,7 @@
     module.controller(
     'GetTimeController', ['$scope', '$http', function($scope, $http) {
     $http.get(
-      "https://www.kimonolabs.com/api/ckndzvl0?apikey=BsZyX8bXMCMKLt0LIyhOVkKv91tYUfLQ").
+      "https://www.kimonolabs.com/api/80nacg0q?apikey=BsZyX8bXMCMKLt0LIyhOVkKv91tYUfLQ").
     success(function(data){
       $scope.results = data.results.collection1[counter].Time;
     }).error(function(){
@@ -107,17 +96,14 @@
     module.controller(
     'GetLeagueController', ['$scope', '$http', function($scope, $http) {
     $http.get(
-      "https://www.kimonolabs.com/api/ckndzvl0?apikey=BsZyX8bXMCMKLt0LIyhOVkKv91tYUfLQ").
+      "https://www.kimonolabs.com/api/80nacg0q?apikey=BsZyX8bXMCMKLt0LIyhOVkKv91tYUfLQ").
     success(function(data){
-      $scope.results = data.results.collection1[counter].League.text;
+      $scope.results = data.results.collection1[counter].League;
     }).error(function(){
       $scope.results = "fail";
     });
     }
     ]);
-    module.controller(
-    'AddTeamController', ['#scope', '$data', function($scope, $data)
-    {
 
     module.controller(
     'AddTeamController', ['#scope', '$data', function($scope, $data)
@@ -130,14 +116,6 @@
 
     ]);
 
-<<<<<<< HEAD
-    }
-
-
-
-    ]);
-
-=======
     module.controller(
       'ReturnSearchedTeams', ['$scope, $data', function($scope)
       {
@@ -156,7 +134,6 @@
         for (var i = 0; i < dotaTeams.length; i++) {
           if(searchedTeam.toLowerCase()===hearthstoneTeams[i].toLowerCase());
         };
->>>>>>> b366b9efc9f93c205eed2e8cf8411dea717bf9c0
 
       }
       ]);
