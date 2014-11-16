@@ -15,8 +15,8 @@
       <ons-list-item modifier="tappable" class="list-item-container">
       <div>
         <ons-row>
-          <ons-col class="action-col" ng-controller="GetTeam1Controller" ng-style="{'color':fontColor}">
-          {{results}}  
+          <ons-col class="action-col" ng-controller="GetTeam1Controller"  ng-style="{'color':fontColor}">
+          {{results}}
           </ons-col>
                    <ons-col class="action-col" ng-controller="GetScoreController">
               {{results}}
@@ -34,10 +34,10 @@
               <ons-col class="action-col" ng-controller="GetDateController">
               {{results}}
                </ons-col>
-              <ons-col class="action-col" ng-controller="GetTimeController">
+              <ons-col class="action-col" ng-controller="GetLeagueController">
               {{results}}
             </ons-col>
-            <ons-col class="action-col" ng-controller="GetLeagueController">
+            <ons-col class="action-col" ng-controller="GetTimeController">
               {{results}}
             </ons-col>
 
@@ -47,4 +47,3 @@
 
     </ons-list>
 </ons-page>
-
