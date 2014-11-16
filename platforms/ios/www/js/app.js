@@ -79,6 +79,20 @@
 
     }
     ]);
+
+    module.controller(
+    'GetTimeController', ['$scope', '$http', function($scope, $http) {
+    $http.get(
+      "https://www.kimonolabs.com/api/ckndzvl0?apikey=BsZyX8bXMCMKLt0LIyhOVkKv91tYUfLQ").
+    success(function(data){
+      $scope.results = data.results.collection1[counter].Time;
+    }).error(function(){
+      $scope.results = "fail";
+    });
+
+    }
+    ]);
+
     module.controller(
     'AddTeamController', ['#scope', '$data', function($scope, $data)
     {
