@@ -68,10 +68,11 @@
 
     module.controller(
     'GetDateController', ['$scope', '$http', function($scope, $http) {
+
     $http.get(
-      "https://www.kimonolabs.com/api/4ag7ique?apikey=BsZyX8bXMCMKLt0LIyhOVkKv91tYUfLQ").
+      "https://www.kimonolabs.com/api/ckndzvl0?apikey=BsZyX8bXMCMKLt0LIyhOVkKv91tYUfLQ").
     success(function(data){
-      $scope.results = data.results.collection1[counter].Score.text;
+      $scope.results = data.results.collection1[counter].Date;
     }).error(function(){
       $scope.results = "fail";
     });

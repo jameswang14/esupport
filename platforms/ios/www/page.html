@@ -12,7 +12,8 @@
     <div class="topBar"></div>
     <ons-list>
 
-      <ons-list-item modifier="chevron" class="list-item-container">
+      <ons-list-item modifier="tappable" class="list-item-container">
+      <div>
         <ons-row>
           <ons-col class="action-col" ng-controller="GetTeam1Controller" ng-style="{'color':fontColor}">
           {{results}}  
@@ -27,10 +28,16 @@
               {{returnTeam}}
             </div-->
         </ons-row>
-
-        <ons-row>
+      </div>
+      <div>
+           <ons-row>
+              <ons-col class="action-col" ng-controller="GetDateController">
+              {{results}}
+               </ons-col>
+     
 
       </ons-row>
+    </div>
       </ons-list-item>
 
     </ons-list>
