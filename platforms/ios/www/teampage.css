@@ -7,12 +7,16 @@
 }
 
 .card {
-  margin-top:50px;
+  margin-top:45px;
   background-color: black;
-  background-image: url(images/teams/c9.jpeg);
   background-repeat: no-repeat;
   background-size: contain;
   color: white;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;  
   height: 250px;
 }
 
@@ -113,4 +117,43 @@
 
 .match-lost {
   color:#E65073;
+}
+
+#c9 {
+  background-image: url(images/teams/c9.jpeg);
+}
+
+#all {
+  background-image: url(images/teams/all.png);
+
+}
+
+#fnc {
+  background-image: url(images/teams/fnc.png);
+
+}
+
+#njws {
+  background-image: url(images/teams/njws.png);
+
+}
+
+#shrc {
+  background-image: url(images/teams/shrc.jpg);
+
+}
+
+#ssb {
+  background-image: url(images/teams/ssb.jpg);
+
+}
+
+#ssw {
+  background-image: url(images/teams/ssw.jpg);
+
+}
+
+#tsm {
+  background-image: url(images/teams/tsm.jpg);
+
 }
