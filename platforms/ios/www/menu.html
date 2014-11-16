@@ -1,9 +1,6 @@
 <ons-page modifier="shop-details">
 
   <ons-toolbar modifier="transparent" style="margin-top:20px">
-    <div class="left">
-      <ons-toolbar-button class="content-padded" style="margin-top:20px">My Profile</ons-toolbar-button>
-    </div>
     <div class="right">
       <ons-toolbar-button class="menu-close" ng-click="menu.close()">
         </ons-icon>Close
@@ -11,7 +8,9 @@
     </div>
   </ons-toolbar>
   <div class="topBar"></div>
-
+  <div class="left">
+      <ons-toolbar-button class="content-padded" style="margin-top:20px">My Profile</ons-toolbar-button>
+    </div>
   <ons-list class="menu-list">
 
     <ons-list-item id="first" class="menu-item" modifier="chevron" onclick="menu.setMainPage('page.html', {closeMenu: true});">

@@ -14,9 +14,21 @@
       success(function(data){
         var temp=data.results;
         var temp2=[];
+        var temp3=[];
+        var temp4=[];
         for (var i = 0; i<data.results.collection1.length;  i++) {
           temp2.push(temp.collection1[i]);
+          temp3 = temp.collection1[i].Score.text;
+          temp4 = temp3.split(":");
+          /**if(parseInt(temp4[0])>parseInt(temp4[1])){
+              $scope.past
+              temp2[i].Team2.text.colorClass("match-lost");
+          } else{
+            temp2[i].Team2.text.colorClass("match-won");
+            temp2[i].Team1.text.colorClass("match-lost")
+            }*/
         };
+
         $scope.results=temp2;
       }).error(function(){
         $scope.results="fail";

@@ -13,16 +13,16 @@
     <div class="topBar"></div>
     <ons-list ng-controller="GetMatchController">
 
-      <ons-list-item modifier="tappable" class="list-item-container" ng-repeat="x in results">
+      <ons-list-item modifier="tappable" class="list-item-container" ng-repeat="x in results| limitTo:10">
       <div>
         <ons-row>
-          <ons-col class="action-col"   ng-style="{'color':fontColor}">
+          <ons-col class="action-col">
           {{x.Team1.text}}
           </ons-col>
             <ons-col class="action-col">
-              {{x.score.text}}
+              {{x.Score.text}}
                </ons-col>
-             <ons-col class="action-col" ng-style="{'color':fontColor}">
+             <ons-col class="action-col"  >
               {{x.Team2.text}}
                </ons-col>
             <!--div class = "desc" ng-controller="ReturnSearchedTeams" ng-init="init('Team SoloMid')">
