@@ -1,6 +1,4 @@
-    <script src="lib/onsen/js/angular/angular.js"></script>
-    <script src="lib/onsen/js/onsenui.js"></script>
-    <script src="js/app.js"></script>
+
 <ons-page modifier="shop-details" >
   <ons-toolbar style="margin-top:20px">
     <div class="left">
@@ -8,24 +6,24 @@
         <ons-icon icon="ion-navicon" size="28px" fixed-width="false"></ons-icon>
       </ons-toolbar-button>
     </div>
-    <form onsubmit="doSomething();">
+    <form action="c9.html">
     <div class="center"><input type="text"  id="team-search" class="search-input" placeholder="Search"></input></div>
   </form>
   </ons-toolbar>
     <div class="topBar"></div>
-    <ons-list>
+    <ons-list ng-controller="GetMatchController">
 
-      <ons-list-item modifier="tappable" class="list-item-container">
+      <ons-list-item modifier="tappable" class="list-item-container" ng-repeat="x in results">
       <div>
         <ons-row>
-          <ons-col class="action-col" ng-controller="GetTeam1Controller"  ng-style="{'color':fontColor}">
-          {{results}}
+          <ons-col class="action-col"   ng-style="{'color':fontColor}">
+          {{x.Team1.text}}
           </ons-col>
-                   <ons-col class="action-col" ng-controller="GetScoreController">
-              {{results}}
+            <ons-col class="action-col">
+              {{x.score.text}}
                </ons-col>
-             <ons-col class="action-col"ng-controller="GetTeam2Controller" ng-style="{'color':fontColor}">
-              {{results}}
+             <ons-col class="action-col" ng-style="{'color':fontColor}">
+              {{x.Team2.text}}
                </ons-col>
             <!--div class = "desc" ng-controller="ReturnSearchedTeams" ng-init="init('Team SoloMid')">
               {{returnTeam}}
@@ -52,10 +50,4 @@
 </ons-page>
 
 
-<script>
-function doSomething()
-{
-  var teamName = document.getElementById("team-search").value;
-  alert(teamName);
-}
-</script>
+

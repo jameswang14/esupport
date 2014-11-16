@@ -2,16 +2,26 @@
 
 (function(){
   'use strict'
-  var followedTeams = [];
-  var searchedTeam;
+
   var counter = 0;
-  var leagueTeams = ["Team SoloMid", "Cloud 9", "Alliance", "Star Horn Royal Club", 
-  "Samsung Galaxy Blue", "Fnatic", "Samsung Galaxy White", "OMG", "NaJin White Shield" ];
-  var dotaTeams = ["Moscow Five", "Virtus Pro-Dota2", "NaVi", "Team Empire", "Fnatic", "Alliance"];
-  var hearthstoneTeams = ["Team Liquid HS", "StrifeCro", "Firebat", "Kolento", "Amaz", "Tarei"];
+
   var module = angular.module('app', ['onsen']);
 
-
+  module.controller(
+    'GetMatchController', ['$scope', '$http', function($scope, $http){
+      $http.get(
+        "https://www.kimonolabs.com/api/4ag7ique?apikey=BsZyX8bXMCMKLt0LIyhOVkKv91tYUfLQ").
+      success(function(data){
+        var temp=data.results;
+        var temp2=[];
+        for (var i = 0; i<data.results.collection1.length;  i++) {
+          temp2.push(temp.collection1[i]);
+        };
+        $scope.results=temp2;
+      }).error(function(){
+        $scope.results="fail";
+      });
+    }]);
 
     module.controller(
     'GetTeam1Controller', ['$scope', '$http', function($scope, $http) {
@@ -26,7 +36,7 @@
           $scope.fontColor="#E65073";
         }
         $scope.results = data.results.collection1[counter].Team1.text;
-        
+
       }).error(function(){
         $scope.results = "fail";
       });
