@@ -26,6 +26,7 @@
           $scope.fontColor="#E65073";
         }
         $scope.results = data.results.collection1[counter].Team1.text;
+        
       }).error(function(){
         $scope.results = "fail";
       });

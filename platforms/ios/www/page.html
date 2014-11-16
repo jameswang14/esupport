@@ -1,3 +1,6 @@
+    <script src="lib/onsen/js/angular/angular.js"></script>
+    <script src="lib/onsen/js/onsenui.js"></script>
+    <script src="js/app.js"></script>
 <ons-page modifier="shop-details" >
   <ons-toolbar style="margin-top:20px">
     <div class="left">
@@ -5,17 +8,17 @@
         <ons-icon icon="ion-navicon" size="28px" fixed-width="false"></ons-icon>
       </ons-toolbar-button>
     </div>
-    <form>
-    <div class="center"><input type="search" value="Search" id="team-search" class="search-input" placeholder="Search"></input></div>
+    <form onsubmit="doSomething();">
+    <div class="center"><input type="text"  id="team-search" class="search-input" placeholder="Search"></input></div>
   </form>
   </ons-toolbar>
     <div class="topBar"></div>
-    <ons-list >
+    <ons-list>
 
       <ons-list-item modifier="tappable" class="list-item-container">
       <div>
         <ons-row>
-          <ons-col class="action-col" ng-controller="GetTeam1Controller" ng-style="{'color':fontColor}">
+          <ons-col class="action-col" ng-controller="GetTeam1Controller"  ng-style="{'color':fontColor}">
           {{results}}  
           </ons-col>
                    <ons-col class="action-col" ng-controller="GetScoreController">
@@ -47,4 +50,12 @@
 
     </ons-list>
 </ons-page>
+
+<script>
+function doSomething()
+{
+  var teamName = document.getElementById("team-search").value;
+  alert(teamName);
+}
+</script>
 
