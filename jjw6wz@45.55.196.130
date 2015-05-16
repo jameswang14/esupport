@@ -1,0 +1,108 @@
+import requests
+import json
+import time
+import datetime
+
+from pymongo import MongoClient
+
+# The base url for the Twitch API
+BASE_URL = 'https://api.twitch.tv/kraken'
+# The version of the API being used
+API_VERSION = 'v3'
+# Client ID for application
+CLIENT_ID = '4ng71gqx25e27yig6whdsbkgx3q2my8'
+# Number of seconds between api calls
+SAVE_PERIOD = 20
+# Number of featured streams to get (MAX 100)
+FEAT_LIMIT = 100
+
+# Shit for MongoDB
+MONGO_PORT = 27017
+MONGO_URL = 'localhost'
+
+# list of streamers to get data for
+stream_list = ['tsm_bjergsen', 'imaqtpie', 'kolento', 'c9sneaky', 'mang0', 'trick2g']
+
+# Will return a dictionary of featured streams
+def get_featured_streams(headers):
+
+	params = {
+		'limit': FEAT_LIMIT,
+	}
+
+	res = requests.get(BASE_URL + '/streams/featured', headers = headers, params = params)
+	if res.status_code == 200:
+		return json.loads(res.content)
+	else:
+		print 'Wrong request returned with status code: ' + str(res.status_code)
+		return None
+
+# Save stream data
+def save_featured_streams(headers, streams):
+
+	response = get_featured_streams(headers)
+	featured = response['featured']
+
+	if featured is not None:
+		for feature in featured:
+			stream = feature['stream']
+			stream['datetime'] = datetime.datetime.utcnow()
+			stream.pop('_id')
+			ins_stream = streams.insert_one(stream)
+			# print ins_stream
+
+def save_stream_list(headers):
+	params = {
+		'limit': FEAT_LIMIT
+	}
+	prev_time = time.time()
+	for stream in stream_list:
+		time.sleep(SAVE_PERIOD - (time.time() - prev_time))
+		prev_time = time.time()
+		print stream
+		res = requests.get(BASE_URL+'/streams/'+stream)
+		resj = json.loads(res.content)
+		print resj
+		print "request made"
+		if res.status_code == 200:
+			if resj['stream'] != "null" and res is not None:
+				resj['datetime'] = datetime.datetime.utcnow()
+				
+				ins_stream = streams1.insert_one(resj)
+			else:
+				print "streamer offline"
+		else:
+			print 'Wrong request returned with status code: ' + str(res.status_code)
+
+
+
+
+
+# runs
+if __name__ == '__main__':
+	print "running"
+	# Setup MongoDB
+	client = MongoClient(MONGO_URL, MONGO_PORT)
+	db = client.twitchml
+	streams1 = db.streams1
+
+	# Headers for every request
+	headers = {
+		'Accept': 'application/vnd.twitchtv.' + API_VERSION + '+json',
+		'Client_ID': CLIENT_ID,
+	}
+
+	start_time = time.time()
+
+	# Value that helps compensated for time drift
+	prev_time = time.time()
+	iteration = 0
+
+	# Event loop
+	while True:
+		#time.sleep(SAVE_PERIOD - (time.time() - prev_time))
+		#prev_time = time.time()
+		save_stream_list(headers)
+		iteration += 1
+		print 'Iteration: ' + str(iteration) + ' on ' + time.ctime()
+		print 'Collection has been running for: ' + str(time.time() - start_time)
